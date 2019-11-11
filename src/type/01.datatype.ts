@@ -9,15 +9,15 @@ let arr1: number[] = [1, 2, 3]
 let arr2: Array<number | string> = [1, 2, 3, '4']
 
 // 元组
-let tuple: [number, string] = [0, '1']
+let tuple: [number, string] = [0, '1'] //代表定义了一个第一个元素是数字，第二个元素是字符串的数组
 // tuple.push(2)
 // console.log(tuple)
 // tuple[2]
 
 // 函数
 let add = (x: number, y: number) => x + y
-let compute: (x: number, y: number) => number
-compute = (a, b) => a + b
+let compute: (x: number, y: number) => number //这里只定义了函数类型
+compute = (a, b) => a + b //这里是函数的定义
 
 // 对象
 let obj: { x: number; y: number } = { x: 1, y: 2 }
